@@ -2,16 +2,14 @@
 	"schemaVersion": 1,
 	"id": "cropalooza",
 	"version": "${version}",
-	"name": "cropalooza",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
+	"name": "Cropalooza",
+	"description": "A mod for modern Minecraft that adds new crops and foods, so that steak isn't the only good food.",
+	"authors": [ "BlueBunnex" ],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "[modrinth]",
+		"sources": "https://github.com/BlueBunnex/cropalooza"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/cropalooza/icon.png",
 	"environment": "*",
 	"entrypoints": {
