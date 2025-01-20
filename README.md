@@ -5,3 +5,5 @@ that is equivalent/better than steak
 mechanics by trying to make something better than steak
 
 Coffee that gives you speed!!
+
+https://docs.fabricmc.net/develop/items/first-item
