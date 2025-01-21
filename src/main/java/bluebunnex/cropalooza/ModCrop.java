@@ -39,6 +39,7 @@ public class ModCrop {
                         .ticksRandomly()
                         .breakInstantly()
                         .pistonBehavior(PistonBehavior.DESTROY)
+                        .nonOpaque()
         );
 
         cropItem = new BlockItem(
@@ -55,4 +56,8 @@ public class ModCrop {
     }
 
     public static void init() {}
+
+    public static ModCrop[] getAllInstances() {
+        return new ModCrop[] { STRAWBERRY };
+    }
 }

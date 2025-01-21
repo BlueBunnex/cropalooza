@@ -6,11 +6,17 @@ that is equivalent/better than steak
 - Makes farming viable compared to just making a cow farm, but doesn't completely debalance the existing hunger
 mechanics by trying to make something better than steak
 
+## Added
+
+### Farm Crops
+
+- Strawberry
+
 ## Ideas
 
 Coffee that gives you speed!!
 
-strawberry + strawberry crumble
+strawberry crumble
 
 fruit trees
 Apples, oranges, banana, pear, coconut

@@ -1,7 +1,12 @@
 {
   "variants": {
-    "": {
-      "model": "cropalooza:block/strawberry"
-    }
+    "age=0": { "model": "cropalooza:block/strawberry0" },
+    "age=1": { "model": "cropalooza:block/strawberry0" },
+    "age=2": { "model": "cropalooza:block/strawberry1" },
+    "age=3": { "model": "cropalooza:block/strawberry1" },
+    "age=4": { "model": "cropalooza:block/strawberry2" },
+    "age=5": { "model": "cropalooza:block/strawberry2" },
+    "age=6": { "model": "cropalooza:block/strawberry3" },
+    "age=7": { "model": "cropalooza:block/strawberry4" }
   }
 }
