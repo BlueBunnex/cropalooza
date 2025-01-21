@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "cropalooza:marshmallow",
+  "result": {
+    "id": "cropalooza:marshmallow_roasted"
+  },
+  "cookingtime": 600
+}
