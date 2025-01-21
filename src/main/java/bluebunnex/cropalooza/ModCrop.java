@@ -10,22 +10,30 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
-public class ModItems {
+public class ModCrop {
 
-    public static final Item SUSPICIOUS_SUBSTANCE = register(
-            new Item.Settings().food(new FoodComponent(2, 0.4f, false)),
-            "suspicious_substance"
-    );
+    public static final ModCrop STRAWBERRY = new ModCrop("strawberry");
 
-    public static void init() {}
+    public final Item drop;
+    public final Item seed;
+    public final Item block;
 
-    public static Item register(Item.Settings itemSettings, String path) {
+    public ModCrop(String path) {
+
+        Item.Settings itemSettings = new Item.Settings().food(new FoodComponent(2, 0.4f, false));
+
+        seed = null;
+        block = null;
 
         RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Cropalooza.MOD_ID, path));
         Item item = new Item(itemSettings.registryKey(registryKey));
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(itemGroup -> itemGroup.add(item));
 
-        return Registry.register(Registries.ITEM, registryKey.getValue(), item);
+        drop = Registry.register(Registries.ITEM, registryKey.getValue(), item);
     }
+
+    // https://docs.fabricmc.net/develop/blocks/first-block
+
+    public static void init() {}
 }
