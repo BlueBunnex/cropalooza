@@ -1,4 +1,4 @@
-package bluebunnex.cropalooza;
+package natsupotato.cropalooza;
 
 import net.fabricmc.api.ModInitializer;
 

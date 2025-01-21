@@ -1,4 +1,4 @@
-package bluebunnex.cropalooza;
+package natsupotato.cropalooza;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;

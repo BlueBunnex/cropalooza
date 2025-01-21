@@ -4,20 +4,20 @@
 	"version": "${version}",
 	"name": "Cropalooza",
 	"description": "A mod for modern Minecraft that adds new crops and foods, so that steak isn't the only good food.",
-	"authors": [ "BlueBunnex" ],
+	"authors": [ "NatsuPotato" ],
 	"contact": {
 		"homepage": "[modrinth]",
-		"sources": "https://github.com/BlueBunnex/cropalooza"
+		"sources": "https://github.com/NatsuPotato/cropalooza"
 	},
 	"license": "MIT",
 	"icon": "assets/cropalooza/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"bluebunnex.cropalooza.Cropalooza"
+			"natsupotato.cropalooza.Cropalooza"
 		],
 		"client": [
-			"bluebunnex.cropalooza.CropaloozaClient"
+			"natsupotato.cropalooza.CropaloozaClient"
 		]
 	},
 	"mixins": [
