@@ -12,15 +12,22 @@ mechanics by trying to make something better than steak
 
 - Strawberry
 
+### Foods
+
+- Marshmallow (4 sugar in a square -> 3 marshmallows)
+- Roasted Marshmallow (marshmallow on campfire)
+
 ## Ideas
 
 Coffee that gives you speed!!
 
 strawberry crumble = vanilla cake recipe but replace milk with strawberries, makes 4 slices that are equal to steak
 
-marshmallow + campfire = roasted marshmallow
-roasted marshmallow + wheat + cocoa bean = smore
-wheat + sugar = graham cracker
+roasted marshmallow + graham cracker + chocolate = smore
+
+2 cocoa bean + milk = chocolate
+
+wheat + sugar = 2 graham cracker
 
 ### Tree Crops
 
@@ -28,6 +35,7 @@ Mixin vanilla leaves to use a custom metadata value to indicate what fruit (if a
 to drop if broken. Harvest from the leaf by clicking it.
 
 (Oak) Apple, orange, pear
+
 (Jungle) banana, coconut
 
 https://docs.fabricmc.net/develop/items/first-item

@@ -16,5 +16,6 @@ public class Cropalooza implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModCrop.init();
+		ModFood.init();
 	}
 }
