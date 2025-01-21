@@ -16,9 +16,18 @@ mechanics by trying to make something better than steak
 
 Coffee that gives you speed!!
 
-strawberry crumble
+strawberry crumble = vanilla cake recipe but replace milk with strawberries, makes 4 slices that are equal to steak
 
-fruit trees
-Apples, oranges, banana, pear, coconut
+marshmallow + campfire = roasted marshmallow
+roasted marshmallow + wheat + cocoa bean = smore
+wheat + sugar = graham cracker
+
+### Tree Crops
+
+Mixin vanilla leaves to use a custom metadata value to indicate what fruit (if any) it should grow + what sapling
+to drop if broken. Harvest from the leaf by clicking it.
+
+(Oak) Apple, orange, pear
+(Jungle) banana, coconut
 
 https://docs.fabricmc.net/develop/items/first-item
